@@ -1,0 +1,138 @@
+/* Limpar Formatações padrão*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    background: rgba(197, 194, 194, 0.445);
+}
+
+/*
+********* layout *******
+*/
+
+header{
+    background-color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo {
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+}
+
+
+main{
+    width: 920px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.conteudo {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+#postagem {
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #565656;
+    
+}
+
+
+/*
+********* Formatações de menu  *******
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: greenyellow
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav > a:link, nav > a:visited {
+    color: #fff;
+    padding: 8px 12px;
+
+}
+
+nav > a:hover {
+    color: greenyellow;
+    background: white;
+    text-decoration: none;
+}
+
+
+/*
+********* Formatações Gerais  *******
+*/
+
+h1{ 
+    color: 4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: greenyellow;
+}
+
+h3{
+    color: #565656;
+    background: rgba(138, 204, 38, 0.726);
+    padding: 5px;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.blog {
+    color: white;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    background: rgba(187, 180, 180, 0.815);
+}
